@@ -81,5 +81,66 @@ button {
     padding: 6px 18px;
 }
 
+.info-frame {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
+.top-info {
+    display: flex;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
 
+.info-content {
+    display: flex;
+    margin: 0;
+    padding: 8px;
+    gap: 16px;
+}
+
+.info {
+    display: flex;
+    border: 1px solid #3882F6;
+    border-radius: 16px;
+    padding: 50px;
+}
+
+.bottom-info {
+    display: flex;
+    align-content: space-around;
+    gap: 16px;
+}
+
+.text {
+    display: flex;
+    padding: 5px 50px;
+}
+
+.qoute {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    background: #E5E7EB;
+}
+
+.qoute-text {
+    font-style: italic;
+    font-weight: 50;
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.qoute-name {
+    display: flex;
+    align-self: center;
+    font-weight: 700;
+    padding: 10px;
+    padding-left: 190px;
+    color: #1F2937;
+}

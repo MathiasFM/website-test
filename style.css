@@ -144,3 +144,35 @@ button {
     padding-left: 190px;
     color: #1F2937;
 }
+
+.bottom-sign-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+}
+
+.sign-test {
+    display: flex;
+    align-items: center;
+    border-radius: 6px;
+    background: #3882F6;
+    gap: 150px;
+    padding: 50px;
+}
+
+.sign-up-content {
+    display: flex;
+    flex-direction: column;
+    color: #F9FAF8;
+}
+
+.sign-up {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.button-b {
+    border: 2px solid #F9FAF8;
+    border-radius: 8px;
+}

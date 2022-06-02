@@ -10,6 +10,7 @@ body {
 .content {
     display: flex;
     flex-direction: column;
+    background: #1F2937;
 }
 
 .header {
@@ -18,7 +19,6 @@ body {
    display: flex;
    justify-content: space-around;
    align-items: center;
-   align-content: stretch;
    margin: 0;
    padding: 16px;
 }
